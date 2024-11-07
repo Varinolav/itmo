@@ -1,0 +1,20 @@
+{
+	"Planet": {
+		"schedule": {
+			"pair": {
+				"title": "Математический анализ",
+				"type": "Лекция",
+				"time": {
+					"start": "10:00",
+					"end": "11:30"
+				},
+				"format": "online",
+				"teacher": {
+					"surname": "Блейхер",
+					"name": "Оксана",
+					"lastname": "Владимировна"
+				}
+			}
+		}
+	}
+}

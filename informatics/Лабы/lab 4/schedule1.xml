@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Planet>
+    <schedule>
+        <pair>
+            <title>Информатика</title>
+            <type>Лекция</type>
+            <time>
+                <start>8:20</start>
+                <end>9:50</end>
+            </time>
+            <format>fulltime</format>
+            <place>
+                <address>Ул. Ломоносова д.9</address>
+                <classroom>Актовый зал</classroom>
+            </place>
+            <teacher>
+                <surname>Балакшин</surname>
+                <name>Павел</name>
+                <lastname>Валерьевич</lastname>
+            </teacher>
+        </pair>
+        <pair>
+            <title>Основы профессиональной деятельности</title>
+            <type>Лекция</type>
+            <time>
+                <start>10:00</start>
+                <end>11:30</end>
+            </time>
+            <format>fulltime</format>
+            <place>
+                <address>Ул. Ломоносова д.9</address>
+                <classroom>Актовый зал</classroom>
+            </place>
+            <teacher>
+                <surname>Клименков</surname>
+                <name>Сергей</name>
+                <lastname>Викторович</lastname>
+            </teacher>
+        </pair>
+        <pair>
+            <title>Основы дискретной математики (базовый уровень)</title>
+            <type>Лекция</type>
+            <time>
+                <start>13:30</start>
+                <end>15:00</end>
+            </time>
+            <format>fulltime</format>
+            <place>
+                <address>Кронверкский пр., д.49, лит.А</address>
+                <classroom>1428</classroom>
+            </place>
+            <teacher>
+                <surname>Поляков</surname>
+                <name>Владимир</name>
+                <lastname>Иванович</lastname>
+            </teacher>
+        </pair>
+        <pair>
+            <title>Основы дискретной математики (базовый уровень)</title>
+            <type>Практика</type>
+            <time>
+                <start>15:20</start>
+                <end>16:50</end>
+            </time>
+            <format>fulltime</format>
+            <place>
+                <address>Кронверкский пр., д.49, лит.А</address>
+                <classroom>1428</classroom>
+            </place>
+            <teacher>
+                <surname>Поляков</surname>
+                <name>Владимир</name>
+                <lastname>Иванович</lastname>
+            </teacher>
+        </pair>
+    </schedule>
+</Planet>

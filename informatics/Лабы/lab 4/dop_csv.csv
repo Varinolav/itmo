@@ -1,0 +1,5 @@
+Planet_schedule_pair_title,Planet_schedule_pair_type,Planet_schedule_pair_time_start,Planet_schedule_pair_time_end,Planet_schedule_pair_format,Planet_schedule_pair_place_address,Planet_schedule_pair_place_classroom,Planet_schedule_pair_teacher_surname,Planet_schedule_pair_teacher_name,Planet_schedule_pair_teacher_lastname
+Информатика,Лекция,8:20,9:50,fulltime,Ул. Ломоносова д.9,Актовый зал,Балакшин,Павел,Валерьевич
+Основы профессиональной деятельности,Лекция,10:00,11:30,fulltime,Ул. Ломоносова д.9,Актовый зал,Клименков,Сергей,Викторович
+Основы дискретной математики (базовый уровень),Лекция,13:30,15:00,fulltime,Кронверкский пр., д.49, лит.А,1428,Поляков,Владимир,Иванович
+Основы дискретной математики (базовый уровень),Практика,15:20,16:50,fulltime,Кронверкский пр., д.49, лит.А,1428,Поляков,Владимир,Иванович

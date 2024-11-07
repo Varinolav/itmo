@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Planet>
+    <schedule>
+        <pair>
+            <title>Математический анализ</title>
+            <type>Лекция</type>
+            <time>
+                <start>10:00</start>
+                <end>11:30</end>
+            </time>
+            <format>online</format>
+            <teacher>
+                <surname>Блейхер</surname>
+                <name>Оксана</name>
+                <lastname>Владимировна</lastname>
+            </teacher>
+        </pair>
+    </schedule>
+</Planet>
