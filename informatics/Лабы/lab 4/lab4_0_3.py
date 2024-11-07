@@ -16,7 +16,7 @@ def lab_4():
     to_be_listed = []
     s = ''
 
-    with open("schedule2.xml", "r", encoding="utf-8") as xml:
+    with open("schedule1.xml", "r", encoding="utf-8") as xml:
         lines.append('{\n')
         for line in xml.readlines():
             if line.strip() == '<?xml version="1.0" encoding="UTF-8" ?>':
@@ -64,7 +64,6 @@ def lab_4():
                 lines[i - 1] = lines[i - 1] + ('\t' * (tabs + 1)) + ']\n'
                 break
 
-        print(lines)
         add_tab = False
         for i in range(len(lines)):
             if f'"{sp}"' in lines[i]:
@@ -75,7 +74,7 @@ def lab_4():
             if ']' in lines[i] and lines[i][lines[i].find('}'):].count('\t') == tabs_start:
                 break
 
-    with open("schedule2.json", "w", encoding="utf-8") as json:
+    with open("schedule1.json", "w", encoding="utf-8") as json:
         for i in lines:
             json.write(i)
 

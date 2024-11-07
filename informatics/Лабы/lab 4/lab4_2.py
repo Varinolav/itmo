@@ -13,17 +13,17 @@ def removeduplicate(data):
         data.append(key)
 
 
-def lab_4_2():
+def lab_4_2(xml_f, json_f):
     stack = []
     lines = []
     to_be_listed = []
     s = ''
 
-    with open("schedule1.xml", "r", encoding="utf-8") as xml:
+    with open(f"{xml_f}", "r", encoding="utf-8") as xml:
         lines.append('{\n')
         for line in xml.readlines():
             close = False
-            if line == '<?xml version="1.0" encoding="UTF-8" ?>':
+            if line.strip() == '<?xml version="1.0" encoding="UTF-8" ?>':
                 continue
             tag = re.findall('<(.*?)>', line)
             if len(tag) == 2:
@@ -68,9 +68,10 @@ def lab_4_2():
             elif sp in lines[i] and not first:
                 lines[i] = lines[i].replace(f'"{sp}": ', '')
 
-            # if tabs < tabs_start:
-            #     lines[i - 1] = lines[i - 1] + ('\t' * (tabs + 1)) + ']\n'
-            #     break
+            if tabs < tabs_start:
+                lines[i - 1] = lines[i - 1] + ('\t' * (tabs + 1)) + ']\n'
+                break
+
         add_tab = False
         for i in range(len(lines)):
             if f'"{sp}"' in lines[i]:
@@ -81,9 +82,10 @@ def lab_4_2():
             if ']' in lines[i] and lines[i][lines[i].find('}'):].count('\t') == tabs_start:
                 break
 
-    with open("schedule1.json", "w", encoding="utf-8") as json:
+    with open(f"{json_f}", "w", encoding="utf-8") as json:
         for i in lines:
             json.write(i)
 
 
-lab_4_2()
+lab_4_2('schedule1.xml', 'schedule1.json')
+lab_4_2('schedule2.xml', 'schedule2.json')
