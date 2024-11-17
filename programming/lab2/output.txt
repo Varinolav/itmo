@@ -1,0 +1,87 @@
+Kangaskhan Кросик из команды зеленых вступает в бой!
+Binacle Моржик из команды белых вступает в бой!
+Kangaskhan Кросик Использует Fire Blast. 
+Binacle Моржик теряет 2 здоровья.
+
+Binacle Моржик Использует Razor Shell. 
+Kangaskhan Кросик теряет 7 здоровья.
+
+Kangaskhan Кросик Использует Fire Blast. 
+Binacle Моржик теряет 2 здоровья.
+
+Binacle Моржик Использует Sand Attack. 
+Kangaskhan Кросик уменьшает точность.
+
+Kangaskhan Кросик использует Rock Tomb. 
+Binacle Моржик теряет 5 здоровья.
+Binacle Моржик уменьшает скорость.
+
+Binacle Моржик Использует Sand Attack. 
+Kangaskhan Кросик уменьшает точность.
+
+Binacle Моржик Использует Razor Shell. 
+Kangaskhan Кросик теряет 6 здоровья.
+
+Kangaskhan Кросик Использует Fire Blast. 
+Binacle Моржик теряет 1 здоровья.
+
+Binacle Моржик Использует Sand Attack. 
+Kangaskhan Кросик уменьшает точность.
+
+Kangaskhan Кросик использует Rock Tomb. 
+Binacle Моржик теряет 3 здоровья.
+Binacle Моржик уменьшает скорость.
+Binacle Моржик теряет сознание.
+Trapinch Пипка из команды белых вступает в бой!
+Kangaskhan Кросик использует Rock Tomb. 
+Trapinch Пипка теряет 4 здоровья.
+Trapinch Пипка уменьшает скорость.
+
+Trapinch Пипка промахивается
+
+Kangaskhan Кросик Использует Leer. 
+Trapinch Пипка уменьшает защиту.
+
+Trapinch Пипка промахивается
+
+Kangaskhan Кросик Использует Leer. 
+Trapinch Пипка уменьшает защиту.
+
+Trapinch Пипка промахивается
+
+Kangaskhan Кросик Использует Leer. 
+Trapinch Пипка уменьшает защиту.
+
+Trapinch Пипка Использует Earth Power. 
+Kangaskhan Кросик теряет 6 здоровья.
+Kangaskhan Кросик теряет сознание.
+Vibrava Челик из команды зеленых вступает в бой!
+Vibrava Челик Использует Earth Power. 
+Trapinch Пипка теряет 9 здоровья.
+Trapinch Пипка теряет сознание.
+Flygon Бобка из команды белых вступает в бой!
+Flygon Бобка использует Bulldoze. 
+Vibrava Челик теряет 9 здоровья.
+Vibrava Челик уменьшает скорость.
+
+Vibrava Челик Использует Boomburst. 
+Flygon Бобка теряет 4 здоровья.
+
+Vibrava Челик промахивается
+
+Flygon Бобка промахивается
+
+Vibrava Челик промахивается
+
+Flygon Бобка Использует Earth Power. 
+Vibrava Челик теряет 9 здоровья.
+Vibrava Челик теряет сознание.
+Barbaracle Монстр из команды зеленых вступает в бой!
+Flygon Бобка использует Bulldoze. 
+Barbaracle Монстр теряет 16 здоровья.
+Barbaracle Монстр уменьшает скорость.
+Barbaracle Монстр теряет сознание.
+В команде зеленых не осталось покемонов.
+Команда белых побеждает в этом бою!
+
+Process finished with exit code 0
