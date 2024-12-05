@@ -1,8 +1,8 @@
 package Interfaces;
 
-import Entities.Boat;
+import Entities.Items.Item;
 import Enums.Location;
 
 public interface Droppable{
-    String drop(Boat boat, Location location);
+    public String drop(Item item, Location location, String position);
 }

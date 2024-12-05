@@ -1,13 +1,14 @@
 package Entities;
 
 
+import Entities.Items.Boat;
 import Enums.Location;
 
-public abstract class Weather extends Entity {
+public abstract class Weather{
+    protected String name;
     public Weather(String name) {
-        super(name);
+        this.name = name;
     }
 
-    abstract String drop(Boat boat, Location location);
 
 }

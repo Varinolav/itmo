@@ -1,8 +1,10 @@
 package Entities;
 
-public class Forest extends Entity {
+public class Forest {
+    protected String name;
+
     public Forest(String name) {
-        super(name);
+        this.name = name;
     }
 
     public record Pole(String thing) {

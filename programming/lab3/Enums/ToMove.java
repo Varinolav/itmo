@@ -2,7 +2,8 @@ package Enums;
 
 public enum ToMove {
     ISLAND("мой остров", 1000),
-    BOAT("шлюпка", 1000);
+    BOAT("шлюпка", 1000),
+    CHOP("жердей", 1);
 
     private final String title;
     private final int requiredStrength;

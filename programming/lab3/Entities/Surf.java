@@ -1,5 +1,7 @@
 package Entities;
 
+import Entities.Items.Boat;
+import Entities.Items.Item;
 import Enums.Location;
 import Interfaces.Droppable;
 
@@ -8,11 +10,10 @@ public class Surf extends Weather implements Droppable {
         super(name);
     }
 
-    @Override
-    public String drop(Boat boat, Location location) {
-        boat.setPlace(location.getTitle());
-        boat.setPosition("кверху дном");
-        boat.setWaterAround(false);
-        return "ее опрокинул " + this.getName() + " " + boat.getPosition() + boat.getPlace();
+    public String drop(Item item, Location location, String position) {
+
+        item.setPlace(location.getTitle());
+        item.setPosition(position);
+        return "ее опрокинул " + this.name + " " + item.getPosition() + item.getPlace();
     }
 }
