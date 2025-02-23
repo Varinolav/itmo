@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS compscience_type
     id          serial PRIMARY KEY,
     name        varchar(255),
     description text,
-    level       int
+    level       int CHECK (level <= 10)
 );
 CREATE TABLE IF NOT EXISTS users
 (
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS consultation
 (
     id         serial PRIMARY KEY,
     start_time timestamp,
-    end_time   timestamp,
+    end_time   timestamp CHECK ( end_time < start_time ),
     success    boolean
 );
 
