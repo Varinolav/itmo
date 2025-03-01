@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS consultation
 (
     id         serial PRIMARY KEY,
     start_time timestamp,
-    end_time   timestamp CHECK ( end_time < start_time ),
+    end_time   timestamp CHECK ( end_time > start_time ),
     success    boolean
 );
 
